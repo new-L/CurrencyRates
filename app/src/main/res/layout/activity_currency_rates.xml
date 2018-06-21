@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.currencyrates.CurrencyRates">
+<TextView
+    android:id="@+id/charCodeView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF8"
+    android:gravity="center"
+    android:minWidth="45sp"
+    android:padding="4dp"
+    android:shadowColor="#000"
+    android:shadowDx="8"
+    android:shadowDy="8"
+    android:shadowRadius="8"
+    android:textColor="#00F"
+    android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/valueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFE"
+        android:minEms="3"
+        android:padding="3dp"
+        android:textColor="#008"/>
+    <TextView
+        android:id="@+id/nominalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"/>
+
+</android.support.constraint.ConstraintLayout>

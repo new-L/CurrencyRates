@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Курсы ЦБ РФ</string>
+    <string name="rates_url">http://www.cbr.ru/scripts/XML_daily.asp</string>
+</resources>
